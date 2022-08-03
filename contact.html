@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 	
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -25,14 +26,13 @@
 	<div id="form">
 		<form>
 			<h3>Contact Me</h3>
-			Name:<br>
-			<input type="text" name="name"><br>
-			Email:<br>
-			<input type="Email" name="email"><br>
-			Message:<br>
-			<textarea rows="5" cols="50" name="message"></textarea><br>
-			<br>
-			<input type="button" name="submit" value="Submit">
+			<p>Send a message.</p>
+				<fieldset>
+					<label>Name: <input type="text" name="name"></label>
+					<label>Email: <input type="Email" name="email"></label>
+					<label>Message: <textarea rows="5" cols="50" name="message"></textarea></label>
+					<button class="submit-button">Submit</button>
+				</fieldset>
 		</form>
 	</div>
 
