@@ -1,4 +1,4 @@
-h2, h3, thead th, a{
+h2, h3, thead th, a, footer{
 			font-family: 'Quicksand', sans-serif
 		}
 
@@ -6,13 +6,17 @@ p, li, tbody th{
 			font-family: 'Source Sans Pro', sans-serif;
 		}
 
+body{
+	padding: 10px;
+	margin: 8 auto;
+}
 
 p{
 	font-size: 13pt;
 }
 
 form{
-	padding: 15px;
+	padding: 30px;
 	background-color: white;
 	font-style: italic;
 	border-style: solid;
@@ -21,12 +25,21 @@ form{
 	font-family: 'Inconsolata', monospace;
 }
 
+
+
 #hello{
 	line-height: 1.6;
 	font-weight: bold;
 }
 
 .main{
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 100 px;
+
+}
+
+.music{
 	max-width: 600px;
 	margin: 0 auto;
 	padding-top: 100 px;
