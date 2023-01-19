@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="container ">
+    <div className="container py-6">
       <div className="section">
         <span className="title">About</span>
         <p className="p-6 is-size-4">

@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <div className="container">
+    <div className="container py-6">
       <div className="section">
         <span className="title">Projects</span>
         <p className="p-6 is-size-4">
@@ -9,7 +9,7 @@ function Projects() {
           sollicitudin libero.{" "}
         </p>
       </div>
-      <div className="section">
+      <div className="">
         <div className="columns">
           <div className="column">
             <div className="card">
@@ -23,24 +23,29 @@ function Projects() {
               </div>
               <div className="card-content">
                 <div className="media">
-                  <div className="media-left">
-                   
-                  </div>
                   <div className="media-content">
-                    <p className="title is-4">Project title</p>
-                    
+                    <p className="title is-4">ACNH Birthday Directory</p>
                   </div>
                 </div>
 
                 <div className="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a href="#">project link</a>
+                  <p className="">
+                    A simple frontend based application about Animal Crossing.{" "}
+                  </p>
+                  <div className="">
+                    <a className="mr-5" href="https://acnh-bday.netlify.app">
+                      Live Demo
+                    </a>
+                    <a href="https://github.com/adamskristy/acnh-bday">
+                      Source Files
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="column">
-          <div className="card">
+            <div className="card">
               <div className="card-image">
                 <figure className="image is-4by3">
                   <img
@@ -51,17 +56,28 @@ function Projects() {
               </div>
               <div className="card-content">
                 <div className="media">
-                  <div className="media-left">
-                    
-                  </div>
                   <div className="media-content">
-                    <p className="title is-4">Project title</p>
+                    <p className="title is-4">Sweet Water Bath and Spa</p>
                   </div>
                 </div>
 
                 <div className="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a href="#">project link</a>
+                  <p>
+                    {" "}
+                    A sample storefront CRUD application with Node.js, Express
+                    and MongoDB.{" "}
+                  </p>
+                  <div>
+                    <a
+                      className="mr-5"
+                      href="https://sweet-water-bath-store.cyclic.app/products"
+                    >
+                      Live Demo
+                    </a>
+                    <a href="https://github.com/adamskristy/the-store">
+                      Source Files
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
