@@ -3,25 +3,17 @@ function Projects() {
     <div className="container py-6">
       <div className="section">
         <span className="title">Projects</span>
-        <p className="p-6 is-size-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mi
-          nisi, ultricies nec sagittis sed, rhoncus et purus. Praesent ut
-          sollicitudin libero.{" "}
-        </p>
       </div>
       <div className="">
         <div className="columns">
           <div className="column">
             <div className="card">
               <div className="card-image">
-                <figure className="image is-4by3">
-                  <img
-                    src="https://bulma.io/images/placeholders/1280x960.png"
-                    alt="Placeholder image"
-                  />
+                <figure className="image is-4by2">
+                  <img src="https://i.ibb.co/0yLKJGX/acnh.png" alt="acnh" />
                 </figure>
               </div>
-              <div className="card-content">
+              <div className="card-content has-background-white-bis">
                 <div className="media">
                   <div className="media-content">
                     <p className="title is-4">ACNH Birthday Directory</p>
@@ -33,10 +25,19 @@ function Projects() {
                     A simple frontend based application about Animal Crossing.{" "}
                   </p>
                   <div className="">
-                    <a className="mr-5" href="https://acnh-bday.netlify.app">
+                    <a
+                      className="mr-5"
+                      href="https://acnh-bday.netlify.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Live Demo
                     </a>
-                    <a href="https://github.com/adamskristy/acnh-bday">
+                    <a
+                      href="https://github.com/adamskristy/acnh-bday"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Source Files
                     </a>
                   </div>
@@ -47,14 +48,14 @@ function Projects() {
           <div className="column">
             <div className="card">
               <div className="card-image">
-                <figure className="image is-4by3">
+                <figure className="image is-4by2">
                   <img
-                    src="https://bulma.io/images/placeholders/1280x960.png"
-                    alt="Placeholder image"
+                    src="https://i.ibb.co/NyStzY7/linkshare.png"
+                    alt="linkshare"
                   />
                 </figure>
               </div>
-              <div className="card-content">
+              <div className="card-content has-background-white-bis">
                 <div className="media">
                   <div className="media-content">
                     <p className="title is-4">Sweet Water Bath and Spa</p>
@@ -63,18 +64,23 @@ function Projects() {
 
                 <div className="content">
                   <p>
-                    {" "}
-                    A sample storefront CRUD application with Node.js, Express
-                    and MongoDB.{" "}
+                    A storefront CRUD application with Node.js, Express, and
+                    MongoDB.
                   </p>
                   <div>
                     <a
                       className="mr-5"
                       href="https://sweet-water-bath-store.cyclic.app/products"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       Live Demo
                     </a>
-                    <a href="https://github.com/adamskristy/the-store">
+                    <a
+                      href="https://github.com/adamskristy/the-store"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Source Files
                     </a>
                   </div>

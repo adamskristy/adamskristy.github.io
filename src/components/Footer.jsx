@@ -8,9 +8,12 @@ function Footer() {
       </div>
       <div className="is-flex is-justify-content-center">
         <figure class="image is-128x128 mt-5">
-          <a href="https://bulma.io">
+          <a href="https://bulma.io" target="_blank" rel="noreferrer">
             {" "}
-            <img src="https://bulma.io/images/made-with-bulma.png" />
+            <img
+              src="https://bulma.io/images/made-with-bulma.png"
+              alt="Made with bulma"
+            />
           </a>
         </figure>
       </div>

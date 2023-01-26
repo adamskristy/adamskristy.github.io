@@ -10,12 +10,14 @@ $pink: #FA7C91;
 $brown: #757763;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
+$peri: #6667AB;
+$rosybrown:  #bc8f8f;
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito Sans", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
-$primary: $purple;
+$primary: $rosybrown;
 $link: $pink;
 $footer-padding: 3rem 1.5rem 1rem;
 
@@ -26,6 +28,3 @@ $control-border-width: 2px;
 
 
 @import "../../node_modules/bulma/bulma.sass";
-
-// very peri #6667AB
-// rosy brown #bc8f8f

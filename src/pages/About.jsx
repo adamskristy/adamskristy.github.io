@@ -3,16 +3,23 @@ function About() {
     <div className="container py-6">
       <div className="section">
         <span className="title">About</span>
-        <p className="p-6 is-size-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mi
-          nisi, ultricies nec sagittis sed, rhoncus et purus. Praesent ut
-          sollicitudin libero. Fusce dapibus commodo purus non posuere.
-          Curabitur convallis nisl nulla, sed convallis orci auctor eget.
-          Suspendisse ut blandit ligula, volutpat semper turpis. Etiam eu
-          commodo eros. Cras ac est non nisl euismod consectetur sed a mauris.
-          Suspendisse potenti. Integer tempus nisl id nisl rutrum, non placerat
-          est faucibus. Donec iaculis et libero nec facilisis.{" "}
-        </p>
+        <div className="p-6 is-size-4">
+          <p className="block">
+            Curious and easy-going Software Engineer and IT Specialist. My
+            blended background in IT and Customer Service has allowed me to see
+            firsthand the way individuals use software and technology, engage
+            customers, and hear most feedback about products enabling me to
+            understand the customer's needs.
+          </p>
+
+
+          <p className="block">
+            I love engaging my curiosity to learn how stuff works and breaks. I
+            make use of my inquisitive mind to gather all the facts, create test
+            cases, and search for ways to improve and enhance whatever I'm
+            working on to ensure the best quality.
+          </p>
+        </div>
       </div>
     </div>
   );
